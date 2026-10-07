@@ -1,0 +1,17 @@
+
+Requisitos:
+-Autenticar usuários e informar falha de login.
+-Exibir nome do usuário e menu principal.
+-Cadastrar, listar, editar, excluir tutores.
+-Buscar tutores por nome, telefone ou e-mail.
+-Cadastrar, listar, editar e excluir agendamentos associados a um pet.
+
+Regras de negócio:
+-CPF criptografado com AES-256-GCM; senha protegida com hash bscrypt.
+-Pet deve ter tutor existente; agendamento deve ter pet existente.
+-Sessão expira após 900 segundos sem requisições às páginas protegidas.
+-Os nomes das tabelas e colunas devem ser iguais no SQL e no PHP.
+-Três registros iniciais em cada tabela, dentro de saep_db.sql.
+-Bloquear exclusão de tutor com pets e de pet com agendamentos.
+-Os nomes das tabelas e colunas devem ser iguais no SQL e no PHP.
+
